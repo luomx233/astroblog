@@ -1,0 +1,17 @@
+---
+const platform = "github";
+const username = "luomx233";
+import Social from "./Social.astro";
+---
+
+<footer>
+  ---------------------------------------
+  <p>
+    查看更多项目： <a href={`https://www.${platform}.com/${username}`}
+      >{platform}</a>
+  </p>
+  <p>
+    联系我：
+    <Social platform="123" username="dog" />
+  </p>
+</footer>
